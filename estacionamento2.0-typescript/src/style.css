@@ -1,0 +1,46 @@
+html, body {
+        min-height: 100%;
+        width: 100%;
+    }
+    body { background-color: #f9c846; 
+}
+
+#send{
+    
+        background-color: #281d01; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 5px;
+        
+
+        
+      
+}
+
+.principal{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 12px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  flex-direction: row;
+  display: flex;
+  color: black;
+       
+        
+}
+
+.titulo{
+        width: auto;
+        text-align: center;
+}
+
+.tabela{
+        text-align: center;
+}

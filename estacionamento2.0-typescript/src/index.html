@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="style.css" rel="stylesheet">
+  
+
+    <title>Estacionamento</title>
+  </head>
+  <body>
+    <h1 class="titulo"> Estacionamento Dio</h1>
+    <div class="principal">
+      <input class="principal"
+        type="text"
+        id="name"
+        placeholder="Nome do veículo"
+        autocomplete="off"
+      />
+      <input class="principal"
+        type="text"
+        id="licence"
+        placeholder="Placa do veículo"
+        autocomplete="off"
+      />
+      <button id="send" class="success">Registrar</button>
+    </div>
+    <table>
+      <thead class="tabela">
+        <tr>
+          <th>Veículo</th>
+          <th>Placa</th>
+          <th>Entrada</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="garage"></tbody>
+    </table>
+  </body>
+
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/cefa0cc2a4.js" crossorigin="anonymous"></script>
+</html>
